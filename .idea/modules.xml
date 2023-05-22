@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/weather_condition.iml" filepath="$PROJECT_DIR$/weather_condition.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/weather_condition_android.iml" filepath="$PROJECT_DIR$/android/weather_condition_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/weather_condition.iml" filepath="$PROJECT_DIR$/.idea/weather_condition.iml" />
     </modules>
   </component>
 </project>

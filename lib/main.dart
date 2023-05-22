@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:weather_condition/screens/loading_screen.dart';
+import 'package:weather_condition/screens/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,10 +14,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: Scaffold(
-        
-      ),
+      home: MainScreen(),
     );
   }
 }
